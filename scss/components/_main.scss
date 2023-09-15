@@ -1,0 +1,66 @@
+.main{
+  background: $white;
+  &__content{
+    padding-top: 96px;
+    padding-bottom: 61px;
+    min-height: 734px;
+    &-title{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      @include media(992){
+        flex-direction: column;
+      }
+      h3{
+        max-width: 500px;
+      }
+      p{
+        max-width: 468px;
+        margin-top: 30px;
+        @include fonts(17px, 25px, $black, 400);
+        @include media(1200){
+          max-width: 368px;
+        }
+        @include media(768){
+          @include fonts(14px, 22px, $black, 400);
+        }
+      }
+    }
+    &-list{
+      display: flex;
+      justify-content: space-between;
+      column-gap: 10px;
+      row-gap: 10px;
+      margin-top: 20px;
+      @include media(1200){
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      &__card{
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+        transition: 0.3s;
+        &:hover{
+          transform: scale(1.1);
+        }
+        @include media(1200){
+          align-items: center;
+        }
+        p{
+          @include fonts(24px, 32px, $blue, 700);
+          margin-top: 32px;
+          margin-bottom: 16px;
+        }
+        span{
+          max-width: 300px;
+          @include fonts(16px, 24px, $black, 400);
+          @include media(1200){
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
