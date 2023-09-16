@@ -6,7 +6,7 @@
   list-style: none;
   font-family: 'KumbhSans';
   font-weight: 400;
-  overflow: hidden;
+  overflow-x: hidden;
   &::before, &::after{
     font-family: 'icons';
   }
