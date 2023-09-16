@@ -6,6 +6,7 @@
   list-style: none;
   font-family: 'KumbhSans';
   font-weight: 400;
+  outline: 1px solid red;
   &::before, &::after{
     font-family: 'icons';
   }
@@ -27,7 +28,7 @@ $blue-dark: var(--blue-dark);
 
 .container{
   min-height: 40px;
-  // border: 1px solid red;
+  border: 1px solid red;
   @include container();
 }
 h3{

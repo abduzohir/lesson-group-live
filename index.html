@@ -1,12 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
-  <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <div class="navbar">
+            <div class="nvbar__logo-wraper">
+              <img src="./imgs/icon/heder.logo.svg" alt="logo" />
+            </div>
+            <ul class="navbar__list">
+              <li class="navbar__list__item">
+                <a href="#" class="navbar__list__item--link">Home</a>
+              </li>
+              <li class="navbar__list__item">
+                <a href="#" class="navbar__list__item--link">Services</a>
+              </li>
+              <li class="navbar__list__item">
+                <a href="#" class="navbar__list__item--link">About</a>
+              </li>
+              <li class="navbar__list__item">
+                <a href="#" class="navbar__list__item--link">Salespage</a>
+              </li>
+              <button class="btn">
+                <p class="btn__text">Get your free guide now</p>
+              </button>
+              <div class="close_btn" onclick="closeMenu()">
+                <i class="fa-solid fa-x"></i>
+              </div>
+            </ul>
 
-</body>
+            <div class="hamburger">
+              <div class="child ch-1"></div>
+              <div class="child ch-2"></div>
+              <div class="child ch-3"></div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="hero__container">
+      <div class="container">
+        <div class="hero">
+          <img class="hero__logo" src="./imgs/icon/Vector.svg" alt="" />
+          <div class="hero__item">
+            <div class="hero__text__side">
+              <p class="hero__text__side--proven">
+                Proven strategies backed by science for success.
+              </p>
+              <h1 class="hero__text__side--title">
+                Live life at the full potential
+              </h1>
+              <p class="hero__text__side--text">
+                I help people to discover their true potential and live a
+                fulfilling life... Discover the simple 3 steps that I discovered
+                to hack productivity. It just works and it is begin using backed
+                by science. Wanna transform your life?
+              </p>
+              <button class="hero__button">Get your free guide now</button>
+            </div>
+            <div class="hero__img__side">
+              <img src="./imgs/hero__img.png" alt="img" />
+              <div class="hero__img__side--target">
+                <img src="./imgs/icon/hero_logo.svg" alt="" />
+                <div class="hero__img__side--target-info">
+                  <h5 class="hero__img__side--target-text-protsent">100%</h5>
+                  <p class="hero__img__side--target-text-protsent-text">
+                    Success rate this year
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./js/main.js "></script>
+  </body>
 </html>
