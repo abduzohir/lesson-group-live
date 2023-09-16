@@ -1,21 +1,22 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  font-family: 'KumbhSans';
+  font-family: "KumbhSans";
   font-weight: 400;
-  &::before, &::after{
-    font-family: 'icons';
+  &::before,
+  &::after {
+    font-family: "icons";
   }
 }
-:root{
-  --black: #4A556C;
+:root {
+  --black: #4a556c;
   --blue: #333461;
   --white: #fff;
-  --gray: #FAF8F6;
-  --green: #20AD96;
+  --gray: #faf8f6;
+  --green: #20ad96;
   --blue-dark: #041434;
 }
 $black: var(--black);
@@ -25,15 +26,14 @@ $gray: var(--gray);
 $green: var(--green);
 $blue-dark: var(--blue-dark);
 
-.container{
+.container {
   min-height: 40px;
-  // border: 1px solid red;
   @include container();
 }
-h3{
+h3 {
   @include h3();
 }
-.btn{
+.btn {
   width: 250px;
   border-radius: 10px;
   padding: 9px 0;
@@ -43,13 +43,13 @@ h3{
   @include fonts(14px, 24px, $white, 700);
   cursor: pointer;
   transition: 0.3s;
-  &:hover{
+  &:hover {
     transform: scale(1.1);
   }
 }
-svg{
+svg {
   transition: 0.3s;
 }
-svg:hover{
+svg:hover {
   transform: scale(1.1);
 }
