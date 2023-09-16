@@ -1,5 +1,14 @@
 @import './common/root';
+@import "./components/mixin";
+@import "./components/verible";
 @import './common/common';
 @import '././all-blocks/help';
 @import '././all-blocks/motivated';
 @import './all-blocks/say';
+@import "layout/header";
+@import "pages/hero";
+@import "./components/motiv";
+@import "./components/section";
+@import "./components/footer";
+
+
