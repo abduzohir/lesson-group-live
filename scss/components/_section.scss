@@ -1,0 +1,120 @@
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+body{
+    font-family: sans-serif;
+}
+.box{
+    height: 878px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.al{
+    height: 570px;
+    width: 550px;
+}
+.all{
+    height: 581px;
+    width: 446px;
+}
+.dont{
+    color:  $text-color;
+    width: 490px;
+    font-size: 48px;
+}
+.lorem{
+    font-size: 22px;
+    width: 550px;
+}
+.get{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: 
+    $button-color;
+    width: 250px;
+    border: none;
+    color: $primary-color;
+    font-size: 14px;
+}
+.all{
+    background-image: url(../images/Frame\ \(14\).png);
+    background-repeat: no-repeat;
+}
+.move{
+    position:relative;
+    width: 96px;
+    height: 96px;
+    border-radius: 50px;
+    background-color: 
+    $button-color;
+    color: $primary-color;
+    font-size: 14px;
+    left: 390px;
+    top: -50px;
+}
+.free{
+  position: absolute;
+  margin-top: 40px;
+   margin-left: 10px;
+}
+.container-1{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.alll{
+    background-image: url(../images/Screen\ mockup\ \(REPLACE\ FILL\).png);
+    background-repeat: no-repeat;
+    height: 512px;
+}
+.dontt{
+    color:  $text-color;
+    width: 550px;
+    font-size: 36px;
+}
+.boxx{
+    height: 576px;
+    width: 1440px;
+ @include display;
+
+}
+.al-l{
+    height: 570px;
+    width: 550px;
+    margin-top: 100px;
+}
+.alll{
+    height: 581px;
+    width: 446px;
+}
+.dont{
+    color:  $text-color;
+    width: 490px;
+    font-size: 48px;
+}
+.lorem{
+    font-size: 22px;
+    width: 550px;
+    color: $text-color
+    ;
+}
+
+.get{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: 
+    $button-color;
+    width: 250px;
+    border: none;
+    color: $primary-color;
+    font-size: 14px;
+}
+.all{
+    background-image: url(../images/Frame\ \(14\).png);
+    background-repeat: no-repeat;
+}
