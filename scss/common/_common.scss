@@ -6,9 +6,8 @@
   list-style: none;
   font-family: "KumbhSans";
   font-weight: 400;
-  &::before,
-  &::after {
-    font-family: "icons";
+  &::before, &::after{
+    font-family: 'icons';
   }
 }
 :root {

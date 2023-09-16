@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../ringo-figma"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Abbos"
+	}
+}
